@@ -1,0 +1,18 @@
+.images{
+    position: relative;
+}
+
+.smile{
+    width: 480px;
+    height: 490px;
+    border: 20px solid #219D8033;
+}
+
+.mores{
+    border: 20px solid #219D8033;
+    height: 378px;
+    width: 360px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

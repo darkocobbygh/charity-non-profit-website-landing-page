@@ -1,6 +1,10 @@
 import React from 'react'
 import ya from '../assets/ya.png'
-import diagonal from '../assets/diagonal-arrow-right-up.png'
+import diagonal from '../assets/diagonal-arrow-right-up.png';
+import john from '../assets/Ellipse 25.png';
+import jack from '../assets/Ellipse 258.png';
+import sakib from '../assets/Ellipse 2500.png';
+
 const Testimonials = () => {
   return (
     <div>
@@ -18,8 +22,8 @@ const Testimonials = () => {
             <img src={ya} alt="" className='pt-3'/>
             <h4 className='pt-10 text-2xl font-normal'>Kindness</h4>
             <p className='flex flex-wrap'>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is</p>
-            <div>
-                <img src="" alt="" />
+            <div className='pt-4'>
+                <img src={john} alt="" />
                 <h4>John Doe</h4>
                 <p>Senior Gardener Farmer</p>
             </div>
@@ -28,8 +32,8 @@ const Testimonials = () => {
         <img src={ya} alt="" className='pt-3' />
             <h4 className='pt-10 text-2xl font-normal'>Humanity</h4>
             <p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is</p>
-            <div>
-                <img src="" alt="" />
+            <div className='pt-4'>
+                <img src={jack} alt="" />
                 <h4>John Doe</h4>
                 <p>Senior Gardener Farmer</p>
             </div>
@@ -38,8 +42,8 @@ const Testimonials = () => {
         <img src={ya} alt="" className='pt-3' />
             <h4 className='pt-10 text-2xl font-normal'>Ethics & Morality</h4>
             <p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is</p>
-            <div>
-                <img src="" alt="" />
+            <div className='pt-4'>
+                <img src={sakib} alt="" />
                 <h4>Sakib Hossain</h4>
                 <p>Senior Gardener Farmer</p>
             </div>

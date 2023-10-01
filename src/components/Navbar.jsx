@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './navbar.css';
-import logo from '../assets/VGF Logo File  (1) 1.png'
+import logo from '../assets/VGF Logo File  (1) 1.png';
+import vect from '../assets/Vector.png'
 
 const Navbar = () => {
   return (
@@ -17,10 +18,10 @@ const Navbar = () => {
             <Link>Gallery</Link>
         </li>
         <li>
-            <Link>About Us</Link>
+            <Link className='flex'>About Us <img src={vect} className='h-2.5 w-5 mt-2 pt-1 pl-1' alt="" /> </Link>
         </li>
         <li>
-            <Link>How we help</Link>
+            <Link className='flex'>How we help <img src={vect} className='h-2.5 w-5 mt-2 pt-1 pl-1' alt="" /> </Link>
         </li>
       </ul>
       <Link className='pr-10'>

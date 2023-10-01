@@ -1,6 +1,4 @@
 .container{
-    background:url(../assets/Rectangle\ 2907.png) ;
-    width: 2920px;
+    background:url(../assets/Rectangle\ 2907.png) no-repeat;
     background-size: cover;
-    
 }

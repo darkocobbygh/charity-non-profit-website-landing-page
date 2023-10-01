@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './navbar.css'
+import './navbar.css';
 import logo from '../assets/VGF Logo File  (1) 1.png'
 
 const Navbar = () => {
@@ -17,13 +17,15 @@ const Navbar = () => {
             <Link>Gallery</Link>
         </li>
         <li>
-            <Link>About us</Link>
+            <Link>About Us</Link>
         </li>
         <li>
             <Link>How we help</Link>
         </li>
       </ul>
-      <Link>Contact us</Link>
+      <Link className='pr-10'>
+      <button className='bg-green-600 text-white w-32 h-12'>Contact us</button>
+      </Link>
     </nav>
   )
 }

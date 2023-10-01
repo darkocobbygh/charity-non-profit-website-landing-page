@@ -1,6 +1,8 @@
 import React from 'react'
 import scho from '../assets/Rectangle 28802.png'
 import './featurepost.css'
+import loadi from '../assets/Rectangle 2885.png';
+import {BiCheckboxChecked} from 'react-icons/bi'
 const FeaturePost = () => {
   return (
     <div className='flex pb-10 mb-20'>
@@ -10,11 +12,11 @@ const FeaturePost = () => {
         <p className='text-base font-normal'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br /> nonumy tempor invidunt ut labore et dolore magna aliquyam <br /> erat, sed diam voluptua. At vero eos et accusam et justo.</p>
        <div className='flex'>
        <div className='bg-green-200 h-36 w-60 mr-10'>
-            <p className='text-3xl text-center'>Our mission</p>
+            <p className='text-3xl text-center text-green-600'>{BiCheckboxChecked} Our mission</p>
             <p className='pl-2'>Lorem ipsum dolor sit amet, <br /> consetetur sadipscing elitr, <br /> sed diam</p>
         </div>
         <div className='bg-green-200 h-36 w-60 mr-10 '>
-            <p className='text-3xl text-center'>Our vision</p>
+            <p className='text-3xl text-center text-green-600'>Our vision</p>
             <p className='pl-2'>Lorem ipsum dolor sit amet, <br /> consetetur sadipscing elitr, <br /> sed diam</p>
         </div>
        </div>
@@ -22,7 +24,9 @@ const FeaturePost = () => {
         <h5>Donations</h5>
         <p>75%</p>
         </div>
-        <p>bar</p>
+       <div className='loads'>
+       <img src={loadi} alt="" />
+       </div>
       </div>
       <div className='schol'>
         <img src={scho} alt="abou" className='sch' />

@@ -3,7 +3,8 @@ import './home.css'
 const Home = () => {
   return (
     <div>
-      <div className='container h-screen flex justify-center items-center text-white text-center flex-col'>
+      <div className='container h-screen flex justify-center items-center text-white text-center flex-col w-full h-screen
+'>
         <p className='text-2xl font-semibold'>Give Hope For Homeless</p>
         <h1 className='text-7xl'>Helping Each Other <br /> Can Make World Better</h1>
         <p className='text-gray-100'>We Seek Out World Changers And Difference Makers Around The <br /> Globe,And Equip Them To Fulfill Their Unique Purpose.</p>

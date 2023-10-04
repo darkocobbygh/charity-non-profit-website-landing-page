@@ -25,30 +25,42 @@ const Testimonials = () => {
             <img src={ya} alt="" className='pt-3'/>
             <h4 className='pt-10 text-2xl font-normal'>Kindness</h4>
             <p className='flex flex-wrap'>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is</p>
-            <div className='pt-4'>
+            <div className='pt-4 flex'>
+              <div>
                 <img src={john} alt="" />
+                </div>
+                <div className='pl-6 pt-2'>
                 <h4>John Doe</h4>
                 <p>Senior Gardener Farmer</p>
+                </div>
             </div>
         </div>
         <div className='w-96 h-96 border-2 border-green-600 pr-10 mr-10 pl-4 items-center'>
         <img src={ya} alt="" className='pt-3' />
             <h4 className='pt-10 text-2xl font-normal'>Humanity</h4>
             <p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is</p>
-            <div className='pt-4'>
-                <img src={jack} alt="" />
-                <h4>John Doe</h4>
+            <div className='pt-4 flex'>
+              <div>
+              <img src={jack} alt="" />
+              </div>
+              <div className='pl-4 pt-2'>
+              <h4>John Doe</h4>
                 <p>Senior Gardener Farmer</p>
+              </div>
             </div>
         </div>
         <div className='w-96 h-96 border-2 border-green-600 pr-10 mr-10 pl-4 items-center'>
         <img src={ya} alt="" className='pt-3' />
             <h4 className='pt-10 text-2xl font-normal'>Ethics & Morality</h4>
             <p>Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is simply dummy text Lorem Ipsum is</p>
-            <div className='pt-4'>
-                <img src={sakib} alt="" />
-                <h4>Sakib Hossain</h4>
+            <div className='pt-4 flex'>
+              <div>
+              <img src={sakib} alt="" />
+              </div>
+              <div className='pl-4 pt-2'>
+              <h4>Sakib Hossain</h4>
                 <p>Senior Gardener Farmer</p>
+              </div>
             </div>
         </div>
       </div>

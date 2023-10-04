@@ -27,9 +27,9 @@ const FeaturePost = () => {
             <p className='pl-2 pt-4'>Lorem ipsum dolor sit amet, <br /> consetetur sadipscing elitr, <br /> sed diam</p>
         </div>
        </div>
-        <div className='grid grid-cols-2'>
+        <div className='flex justify-between pt-6'>
         <h5>Donations</h5>
-        <p>75%</p>
+        <p className='pr-10'>75%</p>
         </div>
        <div className='loads'>
        <img src={loadi} alt="" />

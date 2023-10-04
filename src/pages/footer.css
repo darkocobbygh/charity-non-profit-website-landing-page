@@ -1,0 +1,17 @@
+.footer{
+    position: relative;
+    height: 512px;
+    width: 1265px;
+    background-color: #22262F;
+}
+
+.subs{
+    background-color: #219D80;
+}
+
+.footrule{
+    position: absolute;
+    bottom: 19.6%;
+    left: 2%;
+    width: 1150px;
+}

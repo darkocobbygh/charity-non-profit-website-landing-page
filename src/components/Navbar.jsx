@@ -6,13 +6,13 @@ import vect from '../assets/Vector.png'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-start pt-3'>
+    <nav className='navba flex justify-between items-start pt-3'>
         <Link>
           <img src={logo} alt="" />
         </Link>
-      <ul className='h-16 w-96 flex gap-y-10'>
+      <ul className='h-16 w-96 flex gap-y-10 pt-4'>
         <li>
-            <Link>Home</Link>
+            <Link className='underline'>Home</Link>
         </li>
         <li>
             <Link>Gallery</Link>
